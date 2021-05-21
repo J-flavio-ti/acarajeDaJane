@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="favicon.ico">
+    <title>Acarajé da Jane Baiana</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <strong>
+                <ul type="square">
+                    <li><a href="acarajeDaJaneBaiana.html">Home</a></li>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Cardápio</a></li>
+                    <li><a href="#">Promoção</a></li>
+                    <li><a href="#">Eeventos</a></li>
+                    <li><a href="#">Na mídia</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+            </strong>
+        </nav>
+        <div id="imagen1"><img src="fotoJane300px.png" alt="foto de jane do Acarajé"></div>
+    </header>
+    
+   
+      <!--image slider start >--> 
+    <div class="slider">
+        <div class="slides">
+
+        <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--radio buttons end-->
+            <!--slider images and-->
+            <div class="slide first">
+                <img src="nova-foto-acaraje/acaraje1500-800.jpeg" alt="">
+            </div>
+            <div class="slide">
+                <img src="nova-foto-acaraje/foto-abara1-1500-800.jpeg" alt="">
+            </div>
+            <div class="slide">
+                <img src="nova-foto-acaraje/panela1500-800.jpeg" alt="">
+            </div>
+            <div class="slide">
+                <img src="nova-foto-acaraje/foto-acaraje2-1500-925.jpeg" alt="">
+            </div>
+            <!--slide imags end-->
+            <!--sutomatic navigation start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!--automatic naviagtion end-->
+        </div>
+        <!--manual navgation start-->
+        <div class="navigation-manual">
+            <label for="radio1"class="manual-btn"></label>
+            <label for="radio2"class="manual-btn"></label>
+            <label for="radio3"class="manual-btn"></label>
+            <label for="radio4"class="manual-btn"></label>
+        </div>
+        <!--manual navgation end-->
+    </div>
+    <!--image slider end-->
+
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+            counter = 1;
+        }
+    }, 7000)
+    </script>
+    
+<nav id="cardapio">
+    <h2>Cardápio</h2>
+</nav>
+
+<div id="fotoCardapio">
+    <img src="nova-foto-acaraje/cardapio.jpeg" alt="">
+</div>
+
+   
+</body>
+</html>
