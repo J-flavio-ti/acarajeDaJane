@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cardapio.css">
 </head>
+<script language="javascript" src="menu.js"></script>
 <body>
       
 
@@ -19,24 +20,24 @@
         </header> 
 
         <header class="menuCardapio">
-            <div>
-                <strong>
-                    <ul>
-                        <li><a href="acarajeDaJaneBaiana.html">Home</a></li>
-                        <li><a href="#">Quem somos</a></li>
-                        <li><a href="#">Cardápio</a></li>
-                        <li><a href="#">Promoção</a></li>
-                        <li><a href="#">Eeventos</a></li>
-                        <li><a href="#">Na mídia</a></li>
-                        <li><a href="#">Contatos</a></li>
-                    </ul>
-                </strong>
-            </div>
+            <img id="icone" src="_imagens/baiana-perfio-170.png" alt="Oculos google glass">
+           
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+                <ul>
+                    <li onmousemove="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="acarajeDaJaneBaiana.html">Home</a></li>
+                    <li onmousemove="mudaFoto('_imagens/especificacoes.png')"onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="#">Quem somos</a></li>
+                    <li onmousemove="mudaFoto('_imagens/acaraje170.png')"onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="cardapio.html">Cardápio</a></li>
+                    <li onmousemove="mudaFoto('_imagens/multimidia.png')"onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="#">Promoção</a></li>
+                    <li><a href="#">Na mídia</a></li>
+                    <li onmousemove="mudaFoto('_imagens/contato.png')"onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="#">Contatos</a></li>
+                </ul>
+        </nav>
         </header>  
 
-        <div class="fotoJane">
-            <img src="fotoJane300px.png" alt="">
-        </div>
+    
+        <div class="imagen1"><img src="fotoJane300px.png" alt="foto de jane do Acarajé"></div>
+        
 
        
     
