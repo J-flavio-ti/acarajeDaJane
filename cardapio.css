@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.menuCardapio{
+    display:inline-block;
+    position: absolute;
+    margin-left: 310px;
+    margin-top: -1230px;
+}
+.menuCardapio li{
+    z-index: 10;
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    background-color: #f5a25ebd;
+    border-radius: 5px;
+    box-shadow: 4px 4px 7px 0px #606060e5;
+    transition: 1s; 
+}   
+.menuCardapio li a{
+    text-decoration: none;
+    color: black;
+}
+.menuCardapio li:hover a{
+    color: white;  
+}
+.menuCardapio li:hover{
+    background-color:#814b1fbd ;
+}
+.fotoJane{
+    display: flex;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -1300px;
+    z-index: 100;
+}
+
+/*cardapio */
+
+.cardapio img{
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    box-shadow: 5px 5px 20px 2px rgb(75, 75, 75);
+    border-radius: 10px;
+}
+footer.rodape{ 
+    clear: both;
+    border-top: 30px solid #606060;
+    border-bottom: 40px solid #606060;
+    margin-top: 40px;
+    background-color: #606060;
+}
+footer.rodape p{
+    text-align: center;
+    color: wheat;
+}
+footer.rodape p a{
+    color: wheat;
+}

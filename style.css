@@ -9,52 +9,56 @@ body{
     /*align-items: center;*/ 
     background-image: url('fotos-acaraje/bloquinhos.jpg'); 
     }
-/*Configuração do menu principal */
+
+#icone{
+    position: absolute;
+    top: 60px;
+    left: 1180px;
+}   
+.imagen1{
+    position: absolute;
+    left: 185px;
+    top: 20px;
+}
+/*configuraçao do menu */
+
 nav#menu {
     display: block;
-    margin-bottom: 50px;
-    z-index: 10; /* deixa imagem ou texto sempre na frente */
 }
 nav#menu ul {
-    font-family: arial, sans-serif;
-    position: absolute; 
-    left: 30%;
-    right: 0;
-    z-index: 10;   /* deixa imagem ou texto sempre na frente */ 
-    top: 100px;       
+   list-style: none;
+   text-transform: uppercase;
+   position: absolute;
+   top: 100px;
+   left: 470px;
 }
 nav#menu li {
-    z-index: 10;
     display: inline-block;
+    background-color: #f5a25ebd;
     padding: 10px;
     margin: 2px;
-    background-color: #f5a25ebd;
-    border-radius: 5px;
+    transition: 1s;
+    border-radius: 8px;
     box-shadow: 4px 4px 7px 0px #606060e5;
-    cursor: pointer;  /*curso vira uma mão sinha quando passa no botão*/ 
 }
-nav#menu li:hover a{  /*muda de cor as letra, quando passa por mouse */
-    color: white;  
+nav#menu li:hover {
+    background-color: #814b1fbd; 
 }
-nav#menu li a{
+nav#menu h1 {
+    display: none;
+}
+nav#menu a {
+    color: #000000;
     text-decoration: none;
-    color: black;
 }
-nav h1 {
-    font-size: 80%;
+nav#menu a:hover{
+    color: white;
 }
-/*Configuração da imagem logo de jane*/   
-div#imagen1 img {
-    position:absolute;
-    width: 300px;
-    margin-left: 11%;
-    margin-top: 40px;
-    z-index: 10;  /* deixa imagem ou texto sempre na frente */  
-}
+
 /*Configuração da imagens estilo carroseu*/
 .slider{
     
-    width: 1500px; /*configurando o tamanho das fotos width: 1000px;*/
+    width: 1200px; /*configurando o tamanho das fotos width: 1000px;*/
     height: 500px; /*largura da foto  height: 600px;*/
     border-radius: 10px;
     overflow: hidden; /*deixando a barra de rolagen em hidden */
@@ -64,13 +68,12 @@ div#imagen1 img {
     /* max-height: 700px;*/
     margin-left: 10%;
     margin-right: 10%;
-    
+    margin-top: 200px;
 }
 .slides{
     width: 500%;  /*configurando o slider*/
     height: 500px;
     display: flex; /* display: flex;*/
-    
 }
 .slides input{
     display: none; 
@@ -80,7 +83,7 @@ div#imagen1 img {
     transition: 2s;   
 }
 .slide img{
-    width: 1500px;  /*a largura do slider 1000px*/
+    width: 1200px;  /*a largura do slider 1000px*/
     height: 500px; /*a altura do slider height: 600px; */
      /*teste   min-height: 600px;*/
       /*teste  min-width: 600px;*/
@@ -89,7 +92,7 @@ div#imagen1 img {
 /*css for manual slide navigation */ 
 .navigation-manual{
     position: absolute;  /*configurando os botões do slider*/
-    width: 1500px;   /*  width: 1500px; */
+    width: 1200px;   /*  width: 1500px; */
     margin-top: -40px; /*margin-top: 70px;*/
     display: flex; /*display: flex;*/
     justify-content: center;  
@@ -123,7 +126,7 @@ div#imagen1 img {
 .navigation-auto{
     position: absolute;
     display: flex;
-    width: 1500px;  /*  width: 1000px; */
+    width: 1200px;  /*  width: 1000px; */
     justify-content: center;
     margin-top: 460px;  /* margin-top: 520px;*/
 }
@@ -148,35 +151,21 @@ div#imagen1 img {
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #40D3DC;
 }
-nav#cardapio {
+
+/*RODA PÉ */
+
+footer.rodape{ 
+    clear: both;
+    border-top: 30px solid #606060;
+    border-bottom: 40px solid #606060;
+    margin-top: 40px;
+    background-color: #606060;
+    
+}
+footer.rodape p{
     text-align: center;
-    font-size: 20pt;
-    background-color: #f5a25ebd;
+    color: wheat;
 }
-nav#cardapio :hover {
-    color: white;
+footer.rodape p a{
+    color: wheat;
 }
-div#fotoCardapio img{
-    margin-left: 20%;
-    border-radius: 10px;
-    box-shadow: 5px 5px 3px 0px #606060c7;
-    
-}
-
-
-
-
-
-
-
-
-   
-
-
-
-
-   
-
-
-
-    
