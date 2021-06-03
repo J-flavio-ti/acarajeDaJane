@@ -153,15 +153,51 @@ nav#menu a:hover{
     background: #40D3DC;
 }
 
-/*RODA PÉ */
+/*elevador img */
+.elevador img{
+    margin-left: 350px;
+    margin-top: -630px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 0px #606060c7;
+    
+}
 
+.quadradoBranco{
+    width: 750px;
+    height: 500px;
+    background-color: rgb(233, 219, 205);
+    margin-top: 150px;
+    margin-left: 800px;
+    border-radius: 10px; 
+    position: relative;
+    box-shadow: 5px 5px 3px 0px #606060c7;
+    z-index: 100;
+}
+
+.sobreJane{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.sobreJane h1{
+    
+    color: #663914bd;
+}
+.sobreJane h2{
+    color: #bb5908bd;
+    font-size: 30px;
+}
+.sobreJane h3{
+    color: #5c0505e1;
+}
+
+/*RODA PÉ */
 footer.rodape{ 
     clear: both;
     border-top: 30px solid #606060;
     border-bottom: 40px solid #606060;
     margin-top: 85px;
     background-color: #606060;
-    
 }
 footer.rodape p{
     text-align: center;
