@@ -1,5 +1,8 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css2?family=Titillium+Web);
+*{
+    font-family:'Arial Narrow', Arial, sans-serif;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -58,7 +61,6 @@ nav#menu a:hover{
 
 /*Configuração da imagens estilo carroseu*/
 .slider{
-    
     width: 1200px; /*configurando o tamanho das fotos width: 1000px;*/
     height: 500px; /*largura da foto  height: 600px;*/
     border-radius: 10px;
@@ -171,7 +173,6 @@ nav#menu a:hover{
     border-radius: 10px; 
     position: relative;
     box-shadow: 5px 5px 3px 0px #606060c7;
-    z-index: 100;
 }
 
 .sobreJane{

@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+*{
+    font-family:'Arial Narrow', Arial, sans-serif;
+}
 nav#menu {
     display: block;
 }
@@ -43,6 +45,7 @@ nav#menu a:hover{
     border-radius: 10px;
 }
 footer.rodape{ 
+    
     clear: both;
     border-top: 30px solid #606060;
     border-bottom: 40px solid #606060;
