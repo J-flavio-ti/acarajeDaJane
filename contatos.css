@@ -70,10 +70,11 @@ box-shadow: 5px 5px 3px 0px #606060c7;
 .quadrado img{
     position: absolute;
     margin-top: 70px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 .detalhe {
     margin-top: -40px;
+
 }
 .input img{
     margin-top: -20px;

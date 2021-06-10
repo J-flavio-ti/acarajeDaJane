@@ -174,11 +174,18 @@ nav#menu a:hover{
     position: relative;
     box-shadow: 5px 5px 3px 0px #606060c7;
 }
-
+.quadradoBranco img{
+    margin-top:30px;
+    margin-left: 203px;
+}
+.detalhe3{
+    margin-top: -30px;
+}
 .sobreJane{
     font-family:'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+
 }
 .sobreJane h1{
     
