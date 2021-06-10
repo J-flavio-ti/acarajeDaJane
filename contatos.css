@@ -2,38 +2,82 @@
 *{
     font-family:'Arial Narrow', Arial, sans-serif;
 }
-.garanhuns {
-    margin-top: 200px;
-    text-align: center;
-}
-.garanhuns img{
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px 2px rgb(75, 75, 75);
+body{
+    margin: 0;
+    padding: 0;
 }
 
+.menu1{
+    list-style: none;
+    display: flex; 
+    margin-top: 80px;
+}
+
+.menu1 li {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px ;
+    background-color: #f5a25ebd;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 5px 5px 10px 1px #333;
+}
+.menu1 li a{
+    color: #000;
+    text-decoration: none;
+}
+.menu1 li:hover{
+    background-color:#7c4c25bd; 
+}
+.menu1 a:hover{
+    color: #fff;
+}
+
+
+#icone{
+   margin: auto;
+   width: 80px;
+   margin-left: 0;
+   
+}
+.imagen1{
+    margin: auto;
+}
+
+.containe{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*foto Garanhuns */
+.container img{
+    max-width: 1200px;
+    margin: auto; 
+}
+.garanhuns img{
+    margin-top: -20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 2px rgb(75, 75, 75);
+    width: 1200px;
+}
 .quadrado{
-width: 1020px;
-height: 600px;
-background-color: rgb(233, 219, 205);
-margin-top: 30px;
-margin-left: 440px;
-border-radius: 10px; 
-position: relative;
-box-shadow: 5px 5px 3px 0px #606060c7;
+    margin-top: 10px;
 }
 .contato{
-   padding-top: 100px;
-   padding-left: 100px;
-   font-size: 30px;
-   color: rgb(85, 66, 38);
+    margin-top: 100px;
+ 
 }
 /*google mapa */
 .google-mapa{
-    margin-left: 445px;
-    margin-right: 435px;
+    margin: auto;
     margin-top: 30px;
     text-align: center;
-    box-shadow: 5px 5px 20px 2px rgb(75, 75, 75);
     border-radius: 10px;
 }
 .lista li{
@@ -42,11 +86,14 @@ box-shadow: 5px 5px 3px 0px #606060c7;
     color: rgba(3, 3, 3, 0.877);
     padding-left: 65px;
     padding-top: 20px;
-
+    
 }
 .input{
     margin-left: 600px;
     margin-top: -400px;
+}
+.input p{
+    margin-right: 600px;
 }
 .input input{
     width: 300px;

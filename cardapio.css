@@ -2,60 +2,84 @@
 *{
     font-family:'Arial Narrow', Arial, sans-serif;
 }
-nav#menu {
-    display: block;
-}
-nav#menu ul {
-   list-style: none;
-   text-transform: uppercase;
-   position: absolute;
-   top: 100px;
-   left: 580px;
-}
-nav#menu li {
-    display: inline-block;
-    background-color: #f5a25ebd;
+.quadromenu{
+    width: 100%;
+    height: 250px;
+    display: flex;
     padding: 10px;
-    margin: 2px;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu1{
+    list-style: none;
+    display: flex; 
+    margin-top: 80px;
+}
+
+.menu1 li {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px ;
+    background-color: #f5a25ebd;
+    cursor: pointer;
     transition: 1s;
-    border-radius: 8px;
-    box-shadow: 4px 4px 7px 0px #606060e5;
+    box-shadow: 5px 5px 10px 1px #333;
 }
-nav#menu li:hover {
-    background-color: #814b1fbd; 
-}
-nav#menu h1 {
-    display: none;
-}
-nav#menu a {
-    color: #000000;
+.menu1 li a{
+    color: #000;
     text-decoration: none;
 }
-nav#menu a:hover{
-    color: white;
+.menu1 li:hover{
+    background-color:#7c4c25bd; 
+}
+.menu1 a:hover{
+    color: #fff;
+}
+
+
+#icone{
+   margin: auto;
+   width: 80px;
+   margin-left: 0;
+   
+}
+.imagen1{
+    margin: auto;
+}
+
+.containe{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 /*cardapio */
 
-.cardapio img{
-    margin-top: 200px;
-    margin-left: 400px;
-    margin-right: 100px;
-    display: flex;
-    box-shadow: 5px 5px 20px 2px rgb(75, 75, 75);
-    border-radius: 10px;
-}
-footer.rodape{ 
+.cardapio{
+    max-width: 1040px;
+    margin: auto;
     
-    clear: both;
-    border-top: 30px solid #606060;
-    border-bottom: 40px solid #606060;
-    margin-top: 40px;
-    background-color: #606060;
 }
-footer.rodape p{
+footer{ 
+    clear: both;
+    border-top: 5px solid #606060;
+    border-bottom: 5px solid #606060;
+    background-color: #333131;
+}
+footer p{
     text-align: center;
     color: wheat;
 }
-footer.rodape p a{
+footer p a{
     color: wheat;
 }
+
+    
