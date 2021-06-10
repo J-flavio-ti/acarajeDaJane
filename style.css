@@ -11,56 +11,68 @@ body{
     /*justify-content: center;*/
     /*align-items: center;*/ 
     background-image: url('fotos-acaraje/bloquinhos.jpg'); 
-    }
-
-#icone{
-    position: absolute;
-    top: 60px;
-    left: 1350px;
-}   
-/*logo de jane */
-.imagen1{
-    position: absolute;
-    left: 250px;
-    top: 20px;
+   
 }
-/*configuraçao do menu */
-
-nav#menu {
-    display: block;
-}
-nav#menu ul {
-   list-style: none;
-   text-transform: uppercase;
-   position: absolute;
-   top: 100px;
-   left: 580px;
-}
-nav#menu li {
-    display: inline-block;
-    background-color: #f5a25ebd;
+.quadromenu{
+    width: 100%;
+    height: 250px;
+    display: flex;
     padding: 10px;
-    margin: 2px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu1{
+    list-style: none;
+    display: flex; 
+    margin-top: 80px;
+}
+
+.menu1 li {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px ;
+    background-color: #f5a25ebd;
+    cursor: pointer;
     transition: 1s;
-    border-radius: 8px;
-    box-shadow: 4px 4px 7px 0px #606060e5;
+    box-shadow: 5px 5px 10px 1px #333;
 }
-nav#menu li:hover {
-    background-color: #814b1fbd; 
-}
-nav#menu h1 {
-    display: none;
-}
-nav#menu a {
-    color: #000000;
+.menu1 li a{
+    color: #000;
     text-decoration: none;
 }
-nav#menu a:hover{
-    color: white;
+.menu1 li:hover{
+    background-color:#7c4c25bd; 
+}
+.menu1 a:hover{
+    color: #fff;
+}
+
+
+#icone{
+   margin: auto;
+   width: 80px;
+   margin-left: 0;
+   
+}
+.imagen1{
+    margin: auto;
+}
+
+.containe{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /*Configuração da imagens estilo carroseu*/
 .slider{
+    margin: auto;
+    margin-top: -30px;
     width: 1200px; /*configurando o tamanho das fotos width: 1000px;*/
     height: 500px; /*largura da foto  height: 600px;*/
     border-radius: 10px;
@@ -69,14 +81,13 @@ nav#menu a:hover{
       /*teste margin-right: */
     box-shadow: 5px 5px 3px 0px #606060c7;
     /* max-height: 700px;*/
-    margin-left: 350px;
-    margin-right: 10%;
-    margin-top: 200px;
+    
 }
 .slides{
     width: 500%;  /*configurando o slider*/
     height: 500px;
     display: flex; /* display: flex;*/
+   
 }
 .slides input{
     display: none; 
@@ -155,62 +166,71 @@ nav#menu a:hover{
     background: #40D3DC;
 }
 
-/*elevador img */
+
+.container{
+    max-width: 1200px;/*para a imagem se adaptar no maximo a 1200px */
+    margin:  auto;/*centraliza a img no centro */
+    display: flex;/*para deixar um do lado do outro */
+    flex-wrap: wrap; 
+}
+.container div{
+    flex: 1 1 500px ;
+}
 .elevador img{
-    margin-left: 350px;
-    margin-top: -630px;
-    border-radius: 10px;
+    width: 600px;
+    height: 750px;
+    margin: auto;
+    border-radius: 20px;
     box-shadow: 5px 5px 3px 0px #606060c7;
+    display: flex;
     
 }
-
-.quadradoBranco{
-    width: 750px;
-    height: 500px;
-    background-color: rgb(233, 219, 205);
-    margin-top: 150px;
-    margin-left: 800px;
-    border-radius: 10px; 
-    position: relative;
+.quadrado{
+    width: 600px;
+    height: 750px;
+    background-color: bisque;
+    margin: auto;
+    border-radius: 20px;
     box-shadow: 5px 5px 3px 0px #606060c7;
-}
-.quadradoBranco img{
-    margin-top:30px;
-    margin-left: 203px;
-}
-.detalhe3{
-    margin-top: -30px;
-}
-.sobreJane{
     font-family:'Arial Narrow', Arial, sans-serif;
+}
+.quadrado h1{
     text-align: center;
-    padding: 10px;
-
-}
-.sobreJane h1{
-    
+    margin-top: 150px;
     color: #663914bd;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-.sobreJane h2{
+.quadrado h2{
+    text-align: center;
     color: #bb5908bd;
     font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-.sobreJane h3{
+.quadrado h3{
+    text-align: center;
     color: #5c0505e1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.quadrado p{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-/*RODA PÉ */
-footer.rodape{ 
+
+footer{ 
     clear: both;
-    border-top: 30px solid #606060;
-    border-bottom: 40px solid #606060;
-    margin-top: 85px;
-    background-color: #606060;
+    border-top: 5px solid #606060;
+    border-bottom: 5px solid #606060;
+    background-color: #333131;
 }
-footer.rodape p{
+footer p{
     text-align: center;
     color: wheat;
 }
-footer.rodape p a{
+footer p a{
     color: wheat;
 }

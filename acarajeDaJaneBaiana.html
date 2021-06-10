@@ -12,24 +12,24 @@
 </head>
 <script language="javascript" src="menu.js"></script>
 <body>
-   
+    <header class="quadromenu">
+
+        <div class="imagen1"><img src="fotoJane300px.png" alt="foto de jane do Acarajé">
+        </div>
+            
+        <ul class="menu1">
+            <li onmousemove="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="acarajeDaJaneBaiana.html">Home</a></li>
+            <li onmousemove="mudaFoto('_imagens/especificacoes.png')"onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="#">Quem somos</a></li>
+            <li onmousemove="mudaFoto('_imagens/acaraje170.png')"onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="cardapio.html">Cardápio</a></li>
+            <li onmousemove="mudaFoto('_imagens/multimidia.png')"onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="#">Promoção</a></li>
+            <li><a href="#">Na mídia</a></li>
+            <li onmousemove="mudaFoto('_imagens/contato.png')"onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="contatos.html">Contatos</a></li>
+        </ul>
+        <img id="icone" src="_imagens/baiana-perfio-170.png" alt="">
+    </header>
+
       <!--image slider start >--> 
-    <header>
-        <img id="icone" src="_imagens/baiana-perfio-170.png" alt="Oculos google glass">
-           
-        <nav id="menu">
-            <h1>Menu Principal</h1>
-                <ul>
-                    <li onmousemove="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="acarajeDaJaneBaiana.html">Home</a></li>
-                    <li onmousemove="mudaFoto('_imagens/especificacoes.png')"onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="#">Quem somos</a></li>
-                    <li onmousemove="mudaFoto('_imagens/acaraje170.png')"onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="cardapio.html">Cardápio</a></li>
-                    <li onmousemove="mudaFoto('_imagens/multimidia.png')"onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="#">Promoção</a></li>
-                    <li><a href="#">Na mídia</a></li>
-                    <li onmousemove="mudaFoto('_imagens/contato.png')"onmouseout="mudaFoto('_imagens/baiana-perfio-170.png')"><a href="contatos.html">Contatos</a></li>
-                </ul>
-        </nav>
-      
-        <div class="imagen1"><img src="fotoJane300px.png" alt="foto de jane do Acarajé"></div>
+    <header class="containe">
         <div class="slider">
             <div class="slides">
             <!--radio buttons start-->
@@ -81,39 +81,36 @@
                     }
                 }, 7000)
             </script>
-    </header> 
+    </header>
 
-    <div class="quadradoBranco"> 
+    <section class="container">
 
-        <img src="detalhe-divisor-06.png" alt="">
+        <div class="elevador">
+            <img src="elevador500.jpg" alt="">
+        </div>
 
-            <div class="sobreJane">
-                <p> <h1>Acarajé da Jane</h1>
-                    <h2>
-                        Isso aqui é um pouquinho
-                        de Brasil iá, iá
-                    </h2>
-                    <h3>
-                        <p>
-                            <hr>O Acarajé é uma das mais tradicionais especiarias populares no Brasil</hr> <br> e carrega uma história cultural ainda pouco conhecida. 
-                        </p>Ele é vendido <br> por todo o país, principalmente em regiões turísticas da Bahia, produzido <br> majoritariamente por mulheres – mães e filhas de santo -, e oferecido <br> no tabuleiro, onde acompanha também outras iguarias baianas, como o abará, <br> o lelê, a cocada preta, cocada branca, o pé-de-moleque, a passarinha, <br> o bolo de estudante. Além disso, como se assemelha a um balcão, o tabuleiro<br> também tem espaço para guardar panelas, colheres de pau e objetos rituais, <br> como figas, dandás e colares de conta.
-                
-                    </h3></p>
-            </div>
-        <div class="detalhe3"><img src="detalhe-divisor-06.png" alt=""></div>
-    </div>
-
-
-    <div class="elevador">
-        <img src="elevador500.jpg" alt="">
-    </div> 
-   
-    <footer class="rodape">
-        <p>
-            Nosso Endereço<br>Venha nos visitar<br>
+        <div class="quadrado">
+             <h1>Acarajé da Jane</h1>
+                <h2>
+                    Isso aqui é um pouquinho
+                    de Brasil iá, iá
+                </h2>
+                <h3>
+                    <p>
+                        <hr>O Acarajé é uma das mais tradicionais especiarias populares no Brasil</hr> <br> e carrega uma história cultural ainda pouco conhecida.
+                    </p>Ele é vendido <br> por todo o país, principalmente em regiões turísticas da Bahia, produzido <br> majoritariamente por mulheres – mães e filhas de santo -, e oferecido <br> no tabuleiro, onde acompanha também outras iguarias baianas, como o abará, <br> o lelê, a cocada preta, cocada branca, o pé-de-moleque, a passarinha, <br> o bolo de estudante. Além disso, como se assemelha a um balcão, o tabuleiro<br> também tem espaço para guardar panelas, colheres de pau e objetos rituais, <br> como figas, dandás e colares de conta.
+            
+                </h3>
+            
+        </div>
+        
+    </section>
+    <p></p>
+    <footer>
+        <p>Nosso Endereço<br>Venha nos visitar<br>
             <a href="#" target="_blank">Instagran</a> 
             <a href="#" target="_blank">Facebook</a>
         </p>
-    </footer>
+    </footer> 
 </body>
 </html>
